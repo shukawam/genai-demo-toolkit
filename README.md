@@ -2,9 +2,16 @@
 
 ## How to use
 
+本リポジトリをクローンします。
+
+```sh
+git clone https://github.com/shukawam/genai-demo-toolkit.git
+```
+
 仮想環境を作成し、有効化します。
 
 ```sh
+cd genai-demo-toolkit
 python3 -m venv .venv
 source .venv/bin/activate
 ```
