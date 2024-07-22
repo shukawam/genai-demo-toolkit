@@ -1,6 +1,6 @@
 # genai-demo-toolkit
 
-## How to use
+## How to use(adb)
 
 本リポジトリをクローンします。
 
@@ -22,13 +22,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-[setup-demo.ipynb](https://github.com/shukawam/genai-demo-toolkit/notebook/setup-demo.ipynb) を実行し、ベクトルデータベースをセットアップします。
+[setup-adb-demo.ipynb](https://github.com/shukawam/genai-demo-toolkit/notebook/setup-adb-demo.ipynb) を実行し、ベクトルデータベースをセットアップします。
 
 アプリケーションを起動します。
 
 ```sh
 cd app
-streamlit run main.py
+streamlit run adb.py
 ```
 
 `http://localhost:8501` へアクセスします。
